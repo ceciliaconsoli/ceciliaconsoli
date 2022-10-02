@@ -16,23 +16,23 @@ const Project: FC<ProjectDetailsProps> = ({ project }) => {
     <div>
       <div className={styles.heroDetails}>
         <div className={styles.heroLeft}>
-          <h1 className={styles.title}>{project.title}</h1>
+          <h1 className={styles.title}>{project?.title || ""}</h1>
           <ul>
             <li>
               <span className={styles.span}>Type</span>{" "}
-              {formatArray(project.type)}
+              {formatArray(project?.type || "")}
             </li>
             <li>
-              <span className={styles.span}>Year</span> {project.year}
+              <span className={styles.span}>Year</span> {project?.year || ""}
             </li>
             <li>
               <span className={styles.span}>Tools</span>
-              {formatArray(project.tools)}
+              {formatArray(project?.tools || "")}
             </li>
           </ul>
-          <p>{lang === "eng" ? project.bodyEng : project.body}</p>
+          <p>{(lang === "eng" ? project?.bodyEng : project?.body) || ""}</p>
         </div>
-        <img src={project.img} className={styles.image} />
+        <img src={project?.img || ""} className={styles.image} />
       </div>
 
       <div className={styles.container}>
@@ -55,7 +55,7 @@ export async function getStaticPaths() {
     const id = page.id;
     return { params: { slug } };
   });
-  return { paths, fallback: true };
+  return { paths, fallback: false };
 }
 
 export async function getStaticProps({ params }: any) {
