@@ -1,0 +1,72 @@
+.container {
+  min-height: 100vh;
+  padding: 4rem 8em;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 4em;
+}
+
+.aboutText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  font-size: 1.1em;
+}
+
+.image {
+  width: 20em;
+  border-radius: 2em;
+  transition: all 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.about span {
+  background-color: #a350a3;
+  padding: 0 0.4em;
+  font-weight: 600;
+  /* background-color: #c1436d; */
+  /* background-color: #f0b939;
+  color: #161137; */
+}
+
+.work,
+.education,
+.skills,
+.certifications {
+  margin-top: 4em;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+}
+
+.skillsColumns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 1em;
+  gap: 2em;
+}
+
+@media screen and (max-width: 1024px) {
+  .image {
+    display: none;
+  }
+  .skillsColumns {
+    grid-template-columns: 1fr;
+  }
+}

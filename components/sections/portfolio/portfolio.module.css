@@ -1,0 +1,20 @@
+.portfolio {
+  padding: 0em 8em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+}
+
+.portfolioGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 2em;
+}
+
+.portfolioPage {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin-top: 2em;
+}

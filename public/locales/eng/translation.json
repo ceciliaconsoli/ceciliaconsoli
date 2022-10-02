@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "hello": "Hello",
+    "me": "I'm",
+    "subtitle": "with a passion for all things digital and"
+  },
+  "portfolio": "Here are some of my projects: most of them are related to university assignements, some are from hackatons or competitions, while others are just personal projects",
+  "about": "Hi, my name is Cecilia Consoli, nice to meet you! I'm a junior front-end developer and a recent graduate from University of Milano-Bicocca. I'm passionate about everything web and digital!",
+  "aboutButtons": {
+    "more": "More about me",
+    "work": "Work experience",
+    "edu": "Education",
+    "certification": "Certifications"
+  },
+  "projects": {
+    "obi": {
+      "body": "A collection of five projects made in order to obtain the FreeCodeCamp responsive web design certification. The projects are developed on codepen, using mainly HTML and CSS."
+    }
+  },
+  "aboutPage": {
+    "title": "Hello, nice to meet you!",
+    "desc": "I'm Cecilia Consoli and I'm a",
+    "desc1": "and recent master's graduate from",
+    "desc2": "where I had my master degree in Theory and Technology of Communication",
+    "desc3": "I'm passionate about everything web and digital: thanks to my job i'm constantly learning and evolving in the field of",
+    "desc4": "while during my studies I had the opportunity to broadened my knowledge about",
+    "desc5": "I'm a friendly and open-minded person, always passionate about",
+    "desc6": "learning and creating new things",
+    "desc7": "I'm a good listener and - thanks to my job and the various university projects I took part in - I'm good at team work",
+    "work": "Work Experience",
+    "edu": "Education",
+    "thesis": "Thesis",
+    "result": "Result",
+    "certifications": "Awards and certifications"
+  },
+  "experience": {
+    "description": {
+      "1": "Developement of micro-frontend platforms for banking clients, using React.js, TypeScript, Next.js and various frameworks.",
+      "2": "Design and developement of the data lab website, starting from the analysis pahse and the creation of the lab's visual identity, up to the creation of wireframes and mockups of the web and the final developement using WordPress. The project started as an internship in relation to my thesis work, and it cotinued as a collaboration.",
+      "3": "Activity of public relations at the university's library front desk. Placing and catologuing of the library's books and journals.",
+      "4": "Curricular internship where I took the role of content editor for the association's online magazine about art and culture. I did researched images and edited them and I wrote articles for the magazine.",
+      "01": "Main courses: visual communication and interface design, web tools and applications, cognitive ergonomy, digital marketing, data visualization, elements of informatics",
+      "02": "Main courses: web design and technologies, laboratory of communication professions, business digital communication, public opinion and media analysis.",
+      "03": "Scientific high school diploma, bilingual address (english and french)"
+    },
+    "skills": {
+      "intro": "My skills range from <strong>web design, visual and graphic design</strong> (photo editing and manipulation, some basic knowledge of vector design), <strong>UX/UI design</strong> (including research, mockups and prototyping) to <strong>frontend developement</strong> (HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux and Bootstrap, plus knowledge of WordPress)",
+      "softSkills": "Soft skills include communication, teamwork, problem-solving and creativity",
+      "languages": "I can speak <strong>italian, english and french</strong>"
+    }
+  },
+  "certifications": [
+    {
+      "name": "Responsive Web Design Certification",
+      "desc": "Certification issued after completing FreeCodeCamp course and all its projects. The certificate was issued on 27/09/2021."
+    },
+    {
+      "name": "Affinity Photo",
+      "desc": "Certification issued after completing the cours 10 Steps to Amazing Photos orgnized by Affinity Revolution. The certificate was issued on 18/10/2021."
+    }
+  ],
+  "cvButton": "Dowload my CV",
+  "uni": "University of Milano-Bicocca",
+  "email": "Write an email",
+  "allProjects": "See all projects"
+}

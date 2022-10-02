@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1em;
+  background-color: #231a5c64;
+  padding: 1.2em;
+  border-radius: 1.2em;
+  color: #f3f2f0;
+  cursor: pointer;
+}
+
+.card ul {
+  line-height: 1.6em;
+  list-style: none;
+  padding-left: 0;
+}
+
+.span {
+  background-color: #a350a3;
+  padding: 0.05em 0.25em;
+  color: #161137;
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+.image {
+  border-radius: 1.2em 1.2em 0 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.4);
+}

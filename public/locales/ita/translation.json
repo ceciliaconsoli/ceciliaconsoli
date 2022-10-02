@@ -1,0 +1,66 @@
+{
+  "hero": {
+    "hello": "Ciao",
+    "me": "Sono",
+    "subtitle": "e appassionata di digital e"
+  },
+  "portfolio": "Ecco alcuni dei miei progetti: la maggior parte sono relativi a corsi universitari, alcuni sono stati sviluppati durante hackaton o competizioni, mentre altri sono progetti personali",
+  "about": "Ciao, mi chiamo Cecilia Consoli, piacere di conoscerti! Sono una junior front-end developer e sono laureata magistrale presso l'Università di Milano-Bicocca. Sono appassionata a tutto ciò che riguarda il mondo del web e del digitale!",
+  "aboutButtons": {
+    "more": "Maggiori dettagli",
+    "work": "Esperienza lavorativa",
+    "edu": "Educazione",
+    "certification": "Certificazioni"
+  },
+  "projects": {
+    "obi": {
+      "body": "Collezione di cinque progetti realizzati per ottenere la certificazione responsive web design di FreeCodeCamp. I progetti sono stati sviluppati in codepen usando principlamente HTML e CSS."
+    }
+  },
+  "aboutPage": {
+    "title": "Ciao, piacere di conoscerti!",
+    "desc": "Sono Cecilia Consoli e sono una",
+    "desc1": "e laureata magistrale presso",
+    "desc2": "dove ho conseguito la laurea in Teoria e Tecnologia della Comunicazione",
+    "desc3": "Sono appassionata di tutto ciò che riguarda il mondo del web e del digitale: grazie al mio lavoro continuo ad imparare e a crescere nel mondo del",
+    "desc4": "mentre durante gli studi ho avuto l'opportunità di ampliare la mia conoscenza in campo",
+    "desc5": "Sono una persona amichevole e dalla mente aperta, sempre pronta ad",
+    "desc6": "imparare e creare nuove cose",
+    "desc7": "Sono brava ad ascoltare e - grazie al mio lavoro e ai diversi progetti universitari ai quali ho preso parte - sono brava a lavorare in gruppo",
+    "work": "Esperienza Lavorativa",
+    "edu": "Formazione",
+    "thesis": "Tesi",
+    "result": "Votazione",
+    "certifications": "Premi e certificazioni"
+  },
+  "experience": {
+    "description": {
+      "1": "Sviluppo di piattaforme micro-frontend per clienti in ambito bancario, tramite l'utilizzo di React.js, TypeScript, Next.js e numerosi framework.",
+      "2": "Progettazione e sviluppo del sito web del laboratorio, partendo dalle fasi di analisi e creazione dell'identità del laboratorio fino alla creazione di wireframes e mockup del sito ed infine al suo sviluppo in WordPress. Il progetto è iniziato come tirocinio curriculare correlato al lavoro di tesi, ed è poi proseguito come collaborazione.",
+      "3": "Attività di relazione con il pubblico presso l'ufficio prestiti della biblioteca centrale dell'università. Collocazione e catalogazione di libri e riviste della biblioteca.",
+      "4": "Tirocinio curriculare dove ho svolto il ruolo di content editor per il magazine online dell'associazione, dedicato ai temi di arte e cultura. Mansioni svolte: ricerca ed editing di immagini e scrittura di articoli.",
+      "01": "Corsi principali: comunicazione visiva e design delle interfacce, strumenti e applicazioni del web, ergonomia cognitiva, digital marketing, data visualization, elementi di informatica.",
+      "02": "Corsi principali: web design and technologies, laboratorio di professioni della comunicazione, business digital communication, opinione pubblica e media analysis.",
+      "03": "Diploma di liceo scientifico con indirizzo bilingue (inglese ed francese)"
+    },
+    "skills": {
+      "intro": "Le mie skills vanno dal <strong>web design, visual e graphic design</strong> (manipolazione ed editing di foto e conoscenza base di design vettoriale), <strong>UX/UI design</strong> (inclusa ricerca UX, creazione di mockup e prototipi) al <strong>developement frontend</strong> (HTML5, CSS3, JavaScript, TypeScript, React, Next.js, Redux e Bootstrap, più WordPress)",
+      "softSkills": "Le mie soft skills includono la comunicazione, il lavoro in team, problem-solving e creatività",
+      "languages": "Parlo <strong>italiano, inglese e francese</strong>"
+    }
+  },
+  "certifications": [
+    {
+      "name": "Responsive Web Design Certification",
+      "desc": "ITA! Certification issued after completing FreeCodeCamp course and all its projects. The certificate was issued on 27/09/2021."
+    },
+    {
+      "name": "Affinity Photo",
+      "desc": "ITA! Certification issued after completing the cours 10 Steps to Amazing Photos orgnized by Affinity Revolution. The certificate was issued on 18/10/2021."
+    }
+  ],
+  "cvButton": "Scarica il mio CV",
+  "uni": "l'Università di Milano-Bicocca",
+  "email": "Scrivi un'email",
+  "allProjects": "Vedi tutti i progetti"
+}

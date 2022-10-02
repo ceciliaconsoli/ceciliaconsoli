@@ -1,0 +1,22 @@
+.barChart {
+  padding-top: 1em;
+}
+
+.bar {
+  height: 1em;
+  border-radius: 1em;
+}
+
+.backBar {
+  background: #161137;
+  width: 100%;
+}
+
+.percBar {
+  background: #c1436d;
+}
+
+.barP{
+  font-weight: 600;
+  padding-bottom: 0.2em;
+}

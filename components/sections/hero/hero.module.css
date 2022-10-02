@@ -1,0 +1,36 @@
+.hero {
+  padding: 0em 8em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2em;
+}
+
+.hero h1 {
+  font-size: 4.4em;
+  padding: 0;
+  margin: 0;
+  color: #f3f2f0;
+}
+
+.span {
+  color: #a350a3;
+}
+
+.pink {
+  color: #c1436d;
+}
+
+.hero p {
+  font-size: 1.2em;
+  font-weight: 500;
+  margin: 0;
+}
+
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  gap: 1.4em;
+  align-items: center;
+}

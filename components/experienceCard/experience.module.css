@@ -1,0 +1,49 @@
+.experienceCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 2em;
+  margin-top: 2em;
+}
+
+.title {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+@media screen and (max-width: 830px) {
+  .title {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.pink {
+  color: #a350a3;
+  font-size: 1.1em;
+}
+
+.details {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75em;
+  border-left: 4px solid #a350a3;
+  padding-left: 1.2em;
+  position: relative;
+}
+
+.dot {
+  background:#a350a3;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: -12px;
+}

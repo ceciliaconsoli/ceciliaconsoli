@@ -1,0 +1,47 @@
+.button {
+  color: #f3f2f0;
+  border-radius: 1.2em;
+  padding: 0.5em 2.6em;
+  width: fit-content;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.primaryButton {
+  background: #a350a3;
+  border: 2px solid #a350a3;
+}
+
+.primaryButton:hover {
+  background: #c1436d;
+  border: 2px solid #c1436d;
+}
+
+.secondaryButton {
+  border: 2px solid #f3f2f0;
+}
+
+.secondaryButton:hover {
+  border: 2px solid #c1436d;
+  color: #c1436d;
+}
+
+.contactsButton {
+  border: 2px solid #f3f2f0;
+}
+
+.contactsButton:hover {
+  background: #f3f2f0;
+  color: #c1436d;
+}
+
+.buttonContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}

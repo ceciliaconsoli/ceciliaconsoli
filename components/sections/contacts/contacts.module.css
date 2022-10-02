@@ -1,0 +1,18 @@
+.contacts {
+  padding: 4em 8em;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6em;
+  background-color: #a350a3;
+}
+
+.buttonsDiv {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1.8em;
+}
+
+.contacts h1 {
+  color: #f3f2f0;
+}
