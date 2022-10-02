@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --yellow: #FAC140;
+  --purple: #361D9D;
+  --dark: #070544;
+  --grey: #F3F2F0;
+  --font: 'Montserrat Alternates';
+  --alt-font: 'Montserrat';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font), var(--alt-font), sans-serif !important;
+}
+
+h1 {
+  font-size: 2.6rem;
+  font-weight: 800 !important;
+  color: var(--purple);
+}
+
+h2 {
+  font-size: 1.6rem !important;
+}
+
+ p {
+  font-family: var(--alt-font), 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+button, a, ul, li {
+  font-family: var(--alt-font), sans-serif !important;
+}
+
+a:hover {
+  color: var(--dark) !important;
+}
+
+.btn-yellow {
+  color: var(--purple) !important;
+  background-color: var(--yellow) !important;
+  font-family: var(--alt-font);
+  font-weight: 600 !important;
+}
+
+.btn-purple {
+  color: var(--yellow) !important;
+  background-color: var(--purple) !important;
+  font-family: var(--alt-font);
+  font-weight: 600 !important;
+}
+
+.btn-yellow:hover, .btn-purple:hover {
+  animation: bounce; 
+  animation-duration: 1s;
+}
+
+.btn-outline {
+  border: 2px solid var(--purple);
+  background-color: transparent;
+  color: var(--purple);
+  font-family: var(--alt-font);
+  font-weight: 600 !important;
+}
+
+.btn-outline:hover {
+  background-color: var(--purple);
+  color: var(--yellow) !important;
+}
+
+nav {
+  background-color: var(--yellow);
+  font-family: var(--alt-font);
+  font-weight: 700;
+}
+
+.nav-item {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.nav-link {
+  color: var(--purple) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--purple) !important;
+  /* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(54, 29, 157, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); 
+  background-repeat: no-repeat; */
+} 
+
+
+header#home {
+  background-color: var(--purple);
+  background-image: url("https://ceciliaconsoli.altervista.org/wp-content/uploads/2020/06/Homepage-sito-4-6.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+}
+
+@media (max-width: 768px) {
+    #home {
+      background-image: url("https://i.ibb.co/VgXcZSZ/Schermata-2021-09-29-alle-21-23-27.png");
+      background-position: center;
+    }
+}
+
+header h1 {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+header p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.vertical-center {
+  display: flex;
+  align-items: center;
+  min-height: 100%;  
+  min-height: 100vh;
+}
+
+
+.card-body{
+  padding-left: 1.1rem;
+  padding-right: 1.1rem;
+}
+
+
+/*
+.card:hover{
+  animation: bounce; 
+  animation-duration: 1s;
+}
+*/
+ .card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} 
+
+.card ul{
+  list-style: none;
+  padding-left: 0px;
+  font-family: var(--alt-font);
+}
+
+.card ul li{
+  font-weight: 500;
+}
+
+.card h2{
+  color: var(--purple);
+  font-weight: 700;
+}
+
+.row-card {
+ margin-top: 0.5rem;
+}
+
+.card-link {
+  font-family: var(--alt-font);
+  padding: 0.2rem 0.8rem; 
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  width: fit-content;
+}
+
+.link-yellow {
+  color: var(--purple) !important;
+  background-color: var(--yellow) !important;
+}
+
+.link-purple {
+  color: var(--yellow) !important;
+  background-color: var(--purple) !important;
+}
+
+#contacts {
+  background-color: var(--purple);
+}
+
+#contacts h1 {
+  color: var(--yellow);
+}
+
+#contacts a {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#about-me {
+  background-color: var(--grey);
+  position: relative;
+  z-index: 100;
+  background-image: url("https://ceciliaconsoli.altervista.org/wp-content/uploads/2020/03/geometry.png");
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+/*
+.btn-contacts:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+} */
+
+.fas, .fab {
+  font-size: 1.2rem !important;
+  padding-top: 0.2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--yellow);
+  color: var(--purple);
+  height: 2.2em;
+}
+
+footer p {
+  font-size: 1.1rem;
+}
+
+/* ABOUT PAGE */
+
+header#about {
+  background-color: var(--purple);
+  background-image: url("https://ceciliaconsoli.altervista.org/wp-content/uploads/2020/06/Homepage-sito-4-flipped.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#about h1 {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+#about p {
+  font-size: 1.2rem;
+}
+
+.strong {
+  background-color: var(--purple);
+  color: var(--grey);
+  font-weight: 500;
+  padding-left: 0.2rem;
+  padding-right: 0.2rem;
+}
+
+#cv-btn {
+  background-color: var(--purple) !important;
+  color: var(--yellow) !important;
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-transforma: uppercase;
+}
+
+
+.pattern-bg {
+  background-color: var(--grey);
+  position: relative;
+  z-index: 100;
+  background-image: url("https://ceciliaconsoli.altervista.org/wp-content/uploads/2020/03/geometry.png");
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
+
+#cv p {
+  color: var(--purple);
+  font-family: var(--font);
+  font-weight: 700;
+  font-size: 1.6rem;
+}
+
+#education h2, #work h2 {
+  font-weight: 700;
+}
+
+#education ul, #work ul {
+  margin-left: 2rem;
+  list-style-type: none;
+  line-height: 1.6rem;
+  font-family: var(--alt-font);
+}
+
+.y-bg {
+  background-color: var(--yellow);
+  color: var(--purple);
+}
+
+.y-bg h1, .y-bg h2  {
+  color: var(--purple);
+}
+
+.y-bg ul {
+  border-left: 3px solid var(--purple);
+}
+
+.purp-bg {
+  background-color: var(--purple);
+  color: var(--yellow) !important;
+}
+
+.purp-bg h1, .purp-bg h2  {
+  color: var(--yellow) !important;
+}
+
+.purp-bg ul {
+  border-left: 3px solid var(--yellow);
+}
+
+.progress {
+  margin-bottom: 1rem;
+  background-color: var(--yellow);
+}
+
+.progress-bar {
+  background-color: var(--purple);
+}
+
+.skill-prog p {
+  margin-bottom: 0;
+}
+
+/* Bob animation */
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hvr-bob-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hvr-bob {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
+  -webkit-animation-name: hvr-bob-float, hvr-bob;
+  animation-name: hvr-bob-float, hvr-bob;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+/* end bob animation */
+
+
