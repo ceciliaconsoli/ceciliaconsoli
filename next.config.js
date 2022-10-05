@@ -9,8 +9,12 @@
 module.exports = {
   reactStrictMode: true,
   swcMinify: true,
-  i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+  // i18n: {
+  //   defaultLocale: 'en',
+  //   locales: ['en'],
+  // },
+  images: {
+    loader: 'imgix',
+    path: 'https://example.com/myaccount/',
   },
-}
+};
